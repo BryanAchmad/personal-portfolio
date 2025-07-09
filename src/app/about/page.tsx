@@ -11,9 +11,9 @@ export default function AboutPage() {
 			<p className="text-lg text-gray-400 mb-10">
 				I’m{" "}
 				<span className="font-bold text-white dark:text-white">
-					Adenekan Wonderful
+					Bryan Achmad
 				</span>
-				—but you can call me “Wondy” (or whatever you like, as long as it isn’t
+				—but you can call me “Bryan” (or whatever you like, as long as it isn’t
 				‘late for dinner’ 😅).
 				<br />
 				<br />I build things for the web—sometimes useful, sometimes just for
@@ -31,14 +31,6 @@ export default function AboutPage() {
 					</span>{" "}
 					– I like to turn caffeine and curiosity into creative interfaces.
 					React, Next.js, and a sprinkle of CSS magic? Yes please.
-				</li>
-				<li>
-					✏️{" "}
-					<span className="font-semibold text-white dark:text-white">
-						Design-ish
-					</span>{" "}
-					– I appreciate clean pixels, but I’ll never call myself a “Pixel
-					Pusher.” If it looks good and works well, that’s my jam.
 				</li>
 				<li>
 					💬{" "}
@@ -62,8 +54,8 @@ export default function AboutPage() {
 				</li>
 				<li>☕ Coffee and/or bubble tea—the fuel of champions.</li>
 				<li>
-					🎶 Finding new music. My Spotify algorithm is equal parts jazz, hip
-					hop, and lofi beats.
+					🎶 Finding new music. My Spotify algorithm is equal parts rock, metal,
+					and dangdut.
 				</li>
 				<li>🛋️ Lazy Sundays (the best feature ever shipped).</li>
 			</ul>
@@ -84,11 +76,11 @@ export default function AboutPage() {
 			<ul className="mb-10 space-y-4 text-gray-300">
 				<li>
 					<FaSpotify className="inline mr-2 text-green-500" />
-					<span>“Chill LoFi Study Beats” – for deep work mode</span>
+					<span>“00s Rock Anthems” – for deep work mode</span>
 				</li>
 				<li>
 					<FaSpotify className="inline mr-2 text-green-500" />
-					<span>“Mood Booster” – for dancing in the kitchen (no shame)</span>
+					<span>“90s Rock Anthems” – for dancing in the kitchen (no shame)</span>
 				</li>
 				<li>
 					<FaSpotify className="inline mr-2 text-green-500" />
