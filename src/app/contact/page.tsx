@@ -1,5 +1,4 @@
 "use client";
-import { useDarkMode } from "@/context/DarkModeContext";
 import Link from "next/link";
 import {
 	FaGithub,
@@ -7,7 +6,7 @@ import {
 } from "react-icons/fa";
 
 export default function ContactPage() {
-	const { dark } = useDarkMode();
+	// const { dark } = useDarkMode();
 
 	return (
 		<section className="max-w-xl mx-auto px-6 pt-36 pb-24">

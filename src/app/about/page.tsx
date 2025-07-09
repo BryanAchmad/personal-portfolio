@@ -1,9 +1,8 @@
 "use client";
-import { useDarkMode } from "@/context/DarkModeContext";
+// import { useDarkMode } from "@/context/DarkModeContext";
 import { FaGithub, FaLinkedin, FaSpotify } from "react-icons/fa";
 
 export default function AboutPage() {
-	const { dark } = useDarkMode();
 
 	return (
 		<section className="relative max-w-3xl mx-auto px-6 pt-32 pb-24 z-10">
